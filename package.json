@@ -1,0 +1,30 @@
+{
+  "name": "listabodasalarsa3",
+  "version": "1.0.0",
+  "description": "Trabajo de graduacion Ingenieria en Informatica UNED 2019-1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amonterol/listabodasalarsa3.git"
+  },
+  "author": "Adrian Montero Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amonterol/listabodasalarsa3/issues"
+  },
+  "homepage": "https://github.com/amonterol/listabodasalarsa3#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.5"
+  }
+}
